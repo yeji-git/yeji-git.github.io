@@ -205,7 +205,7 @@ export default function Home() {
                       <Image
                         className="w-4"
                         alt="mouse images"
-                        src="./mouse.svg"
+                        src="./mouse-icon.svg"
                       ></Image>
                     </Button>
                   </CardFooter>
@@ -259,7 +259,7 @@ export default function Home() {
                       <Image
                         className="w-4"
                         alt="mouse images"
-                        src="./mouse.svg"
+                        src="./mouse-icon.svg"
                       ></Image>
                     </Button>
                   </CardFooter>
@@ -295,7 +295,7 @@ export default function Home() {
                       <Image
                         className="w-4"
                         alt="mouse images"
-                        src="./mouse.svg"
+                        src="./mouse-icon.svg"
                       ></Image>
                     </Button>
                   </CardFooter>

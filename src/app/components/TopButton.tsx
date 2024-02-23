@@ -35,7 +35,7 @@ const TopButton = () => {
           onClick={scrollToTop}
           className="w-10 h-10 shadow-md fixed bottom-10 right-10 bg-white rounded-md transition duration-300 z-10"
         >
-          <Image alt="top arrow images" src="./arrow-top.svg"></Image>
+          <Image alt="top arrow images" src="./arrow-top-icon.svg"></Image>
         </button>
       )}
     </div>
