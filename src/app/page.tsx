@@ -181,7 +181,11 @@ export default function Home() {
                     <Divider className="my-4" />
                   </CardHeader>
                   <CardBody>
-                    <Image isZoomed alt="cafe images" src="./cafe.png" />
+                    <Image
+                      isZoomed
+                      alt="cafe images"
+                      src="/yeji-git.github.io/cafe.png"
+                    />
                   </CardBody>
                   <CardFooter className="flex flex-col">
                     <div>
@@ -205,7 +209,7 @@ export default function Home() {
                       <Image
                         className="w-4"
                         alt="mouse images"
-                        src="./mouse-icon.svg"
+                        src="/yeji-git.github.io/mouse-icon.svg"
                       ></Image>
                     </Button>
                   </CardFooter>
@@ -224,7 +228,7 @@ export default function Home() {
                     <Image
                       isZoomed
                       alt="portfolio images"
-                      src="./portfolio.png"
+                      src="/yeji-git.github.io/portfolio.png"
                     />
                   </CardBody>
                   <CardFooter className="flex flex-col">
@@ -243,7 +247,11 @@ export default function Home() {
                     <Divider className="my-4" />
                   </CardHeader>
                   <CardBody>
-                    <Image isZoomed alt="omok images" src="./omok.png" />
+                    <Image
+                      isZoomed
+                      alt="omok images"
+                      src="/yeji-git.github.io/omok.png"
+                    />
                   </CardBody>
                   <CardFooter className="flex flex-col">
                     <div></div>
@@ -259,7 +267,7 @@ export default function Home() {
                       <Image
                         className="w-4"
                         alt="mouse images"
-                        src="./mouse-icon.svg"
+                        src="/yeji-git.github.io/mouse-icon.svg"
                       ></Image>
                     </Button>
                   </CardFooter>
@@ -278,7 +286,7 @@ export default function Home() {
                     <Image
                       isZoomed
                       alt="book search images"
-                      src="./booksearch.png"
+                      src="/yeji-git.github.io/booksearch.png"
                     />
                   </CardBody>
                   <CardFooter className="flex flex-col">
@@ -295,7 +303,7 @@ export default function Home() {
                       <Image
                         className="w-4"
                         alt="mouse images"
-                        src="./mouse-icon.svg"
+                        src="/yeji-git.github.io/mouse-icon.svg"
                       ></Image>
                     </Button>
                   </CardFooter>
