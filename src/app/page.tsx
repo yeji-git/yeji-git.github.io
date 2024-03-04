@@ -199,7 +199,7 @@ export default function Home() {
                     </div>
                     <Divider className="my-4" />
                     <Button
-                      href="https://main--yeji-portfolio-cafe-project.netlify.app/"
+                      href="https://cafe-alpha-six.vercel.app/"
                       as={Link}
                       color="primary"
                       variant="solid"
