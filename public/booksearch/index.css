@@ -42,7 +42,7 @@ h1 {
   margin-left: 0.5rem;
   width: 1.875rem;
   width: 1.875rem;
-  background: center / contain no-repeat url("../search.svg");
+  background: center / contain no-repeat url("../search-icon.svg");
   cursor: pointer;
 }
 
