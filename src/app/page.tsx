@@ -192,12 +192,17 @@ export default function Home() {
                   </CardBody>
                   <CardFooter className="flex flex-col">
                     <div>
-                      <p>기능</p>
+                      <p className="my-2 font-bold">기능</p>
                       <ul className="marker:text-indigo-400 list-disc pl-5 space-y-3">
                         <li>로그인 / 회원가입</li>
                         <li>상품 장바구니 담기 / 구매</li>
                         <li>구매한 상품 리뷰 작성</li>
-                        <li>리뷰 / 공지사항</li>
+                        <li>리뷰 / 공지사항 리스트</li>
+                      </ul>
+                      <p className="my-2 font-bold">계정</p>
+                      <ul className="marker:text-indigo-400 list-disc pl-5 space-y-3">
+                        <li>E-mail: 1234@naver.com</li>
+                        <li>Password: a123456789</li>
                       </ul>
                     </div>
                     <Divider className="my-4" />
@@ -293,7 +298,11 @@ export default function Home() {
                     />
                   </CardBody>
                   <CardFooter className="flex flex-col">
-                    <div></div>
+                    <div>
+                      <ul className="marker:text-indigo-400 list-disc pl-5 space-y-3">
+                        <li>카카오 REST API 활용</li>
+                      </ul>
+                    </div>
                     <Divider className="my-4" />
                     <Button
                       href="./booksearch/index.html"
