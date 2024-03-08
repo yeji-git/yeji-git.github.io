@@ -24,17 +24,17 @@ export default function Home() {
           <NavbarContent className="hidden sm:flex gap-4" justify="center">
             <NavbarItem>
               <Link href="#about" className="hover:text-[#755139]">
-                about
+                About
               </Link>
             </NavbarItem>
             <NavbarItem>
               <Link href="#projects" className="hover:text-[#755139]">
-                projects
+                Projects
               </Link>
             </NavbarItem>
             <NavbarItem>
               <Link href="#contact" className="hover:text-[#755139]">
-                contact
+                Contact
               </Link>
             </NavbarItem>
           </NavbarContent>
@@ -51,12 +51,15 @@ export default function Home() {
                 Front-end Developer
               </h2>
             </article>
+            <div>
+              <div className="scroll-down"></div>
+            </div>
           </div>
         </section>
         <section id="about" className="about">
           <div className="container p-8 ">
             <p className="text-center font-semibold text-3xl drop-shadow-md">
-              about
+              About
             </p>
             <Divider className="my-4" />
             <article className="grid gap-4 grid-cols-2">
@@ -167,7 +170,7 @@ export default function Home() {
         <section id="projects" className="projects">
           <div className="container p-8">
             <p className="text-center font-semibold text-3xl drop-shadow-md">
-              projects
+              Projects
             </p>
             <Divider className="my-4" />
             <div className="grid gap-4">
@@ -314,7 +317,7 @@ export default function Home() {
         </section>
         <section id="contact" className="contact">
           <div className="container p-8 text-[white]">
-            <p className="font-semibold text-3xl drop-shadow-md">contact</p>
+            <p className="font-semibold text-3xl drop-shadow-md">Contact</p>
             <Divider className="my-4" />
             <article>
               <ul>
