@@ -4,6 +4,7 @@ import {
   CardBody,
   CardFooter,
   CardHeader,
+  Chip,
   Divider,
   Image,
   Navbar,
@@ -83,45 +84,79 @@ export default function Home() {
                   <ul className="marker:text-indigo-400 list-disc pl-5 space-y-3">
                     <li>
                       <span>Front-end</span>
-                      <ul className="grid gap-1 *:rounded-full *:border *:border-indigo-100 *:bg-indigo-50 *:px-2 *:py-0.5 dark:text-indigo-300 dark:*:border-indigo-500/15 dark:*:bg-indigo-500/10 flex flex-wrap">
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>JavaScript</li>
-                        <li>jQuery</li>
-                        <li>React</li>
-                        <li>Next.js</li>
-                        <li>TypeScript</li>
-                      </ul>
+                      <div className="flex gap-1">
+                        <Chip color="primary" variant="flat">
+                          HTML5
+                        </Chip>
+                        <Chip color="primary" variant="flat">
+                          CSS3
+                        </Chip>
+                        <Chip color="primary" variant="flat">
+                          JavaScript
+                        </Chip>
+                        <Chip color="primary" variant="flat">
+                          jQuery
+                        </Chip>
+                        <Chip color="primary" variant="flat">
+                          React
+                        </Chip>
+                        <Chip color="primary" variant="flat">
+                          Next.js
+                        </Chip>
+                        <Chip color="primary" variant="flat">
+                          TypeScript
+                        </Chip>
+                      </div>
                     </li>
                     <li>
                       <span>Back-end</span>
-                      <ul className="grid gap-1 *:rounded-full *:border *:border-indigo-100 *:bg-indigo-50 *:px-2 *:py-0.5 dark:text-indigo-300 dark:*:border-indigo-500/15 dark:*:bg-indigo-500/10 flex flex-wrap">
-                        <li>Java</li>
-                        <li>JSP</li>
-                        <li>Spring Boot</li>
-                        <li>SQL</li>
-                        <li>JPA</li>
-                      </ul>
+                      <div className="flex gap-1">
+                        <Chip color="primary" variant="flat">
+                          Java
+                        </Chip>
+                        <Chip color="primary" variant="flat">
+                          JSP
+                        </Chip>
+                        <Chip color="primary" variant="flat">
+                          Spring Boot
+                        </Chip>
+                        <Chip color="primary" variant="flat">
+                          SQL
+                        </Chip>
+                        <Chip color="primary" variant="flat">
+                          JPA
+                        </Chip>
+                      </div>
                     </li>
                     <li>
                       <span>클라우드 플랫폼</span>
-                      <ul className="grid gap-1 *:rounded-full *:border *:border-indigo-100 *:bg-indigo-50 *:px-2 *:py-0.5 dark:text-indigo-300 dark:*:border-indigo-500/15 dark:*:bg-indigo-500/10 flex flex-wrap">
-                        <li>AWS</li>
-                      </ul>
+                      <div>
+                        <Chip color="primary" variant="flat">
+                          AWS
+                        </Chip>
+                      </div>
                     </li>
                     <li>
                       <span>버전 관리 시스템</span>
-                      <ul className="grid gap-1 *:rounded-full *:border *:border-indigo-100 *:bg-indigo-50 *:px-2 *:py-0.5 dark:text-indigo-300 dark:*:border-indigo-500/15 dark:*:bg-indigo-500/10 flex flex-wrap">
-                        <li>Git</li>
-                      </ul>
+                      <div>
+                        <Chip color="primary" variant="flat">
+                          Git
+                        </Chip>
+                      </div>
                     </li>
                     <li>
                       <span>디자인 툴</span>
-                      <ul className="grid gap-1 *:rounded-full *:border *:border-indigo-100 *:bg-indigo-50 *:px-2 *:py-0.5 dark:text-indigo-300 dark:*:border-indigo-500/15 dark:*:bg-indigo-500/10 flex flex-wrap">
-                        <li>Figma</li>
-                        <li>Illustrator</li>
-                        <li>Photoshop</li>
-                      </ul>
+                      <div className="flex gap-1">
+                        <Chip color="primary" variant="flat">
+                          Figma
+                        </Chip>
+                        <Chip color="primary" variant="flat">
+                          Illustrator
+                        </Chip>
+                        <Chip color="primary" variant="flat">
+                          Photoshop
+                        </Chip>
+                      </div>
                     </li>
                   </ul>
                 </CardBody>
