@@ -63,7 +63,7 @@ export default function Home() {
               About
             </p>
             <Divider className="my-4" />
-            <article className="grid gap-4 grid-cols-2">
+            <article className="grid gap-4 md:grid-cols-2">
               <Card>
                 <CardBody className="my-3">
                   <p className="underline decoration-indigo-500 hover:decoration-red-400 text-center text-xl my-3">
@@ -84,7 +84,7 @@ export default function Home() {
                   <ul className="marker:text-indigo-400 list-disc pl-5 space-y-3">
                     <li>
                       <span>Front-end</span>
-                      <div className="flex gap-1">
+                      <div className="flex gap-1 flex-wrap">
                         <Chip color="primary" variant="flat">
                           HTML5
                         </Chip>
@@ -110,7 +110,7 @@ export default function Home() {
                     </li>
                     <li>
                       <span>Back-end</span>
-                      <div className="flex gap-1">
+                      <div className="flex gap-1 flex-wrap">
                         <Chip color="primary" variant="flat">
                           Java
                         </Chip>
@@ -146,7 +146,7 @@ export default function Home() {
                     </li>
                     <li>
                       <span>디자인 툴</span>
-                      <div className="flex gap-1">
+                      <div className="flex gap-1 flex-wrap">
                         <Chip color="primary" variant="flat">
                           Figma
                         </Chip>

@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 :root {
+  font-size: 16px;
   --max-width: 1200px;
   --border-radius: 12px;
   --primary-color: #f3a950;
@@ -117,6 +118,18 @@ ul {
 
 /* Mobile */
 @media (max-width: 700px) {
+  .main article {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .text-8xl {
+    font-size: 3rem;
+  }
+
+  .text-4xl {
+    font-size: 2rem;
+  }
 }
 
 /* Tablet and Smaller Desktop */
